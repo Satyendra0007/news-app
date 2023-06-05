@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .stop-scrolling {
+    @apply h-full overflow-hidden
+  }
+}
